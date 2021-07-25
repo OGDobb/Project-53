@@ -1,0 +1,63 @@
+*{
+    border : solid
+    
+}
+
+h1{
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+    .aboutUs{
+        margin: 50px;
+    }
+    .aboutUs a{
+        margin: 20px;
+    }
+
+
+a:link{
+    color: #ff0101;
+}
+a:visited{
+    color: #001aff;
+}
+a:hover{
+    color:#00ff00;
+}
+
+body{
+    background-color : #ffffff;
+    margin: 50px;
+}
+
+.origami{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 100px;
+    margin: 100px;
+    border-radius: 5px;
+    font-size: 40px;
+
+    
+    }
+
+    .edits{
+        position: relative;
+    }
+    .edits p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    
+}
+.edits:hover p{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.edits:hover img{
+    transform: scale(1.5);
+}
